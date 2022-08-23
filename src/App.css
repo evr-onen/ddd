@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Poppins:wght@600&display=swap");
+
+/* font-family: "Oswald", sans-serif;
+
+font-family: "Poppins", sans-serif; */
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Oswald", sans-serif;
+}
+.App {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+.top-section {
+  display: flex;
+  flex-direction: column;
+}
+.top-section h3 {
+  margin: 0 auto;
+}
+.person-select {
+  border: 1px solid black;
+  display: flex;
+}
+.person-select select {
+  width: 25%;
+}
+.person-select label {
+  margin: 0 auto;
+  width: 35%;
+  display: flex;
+}
+.person-select label select {
+  width: 55%;
+  margin: auto;
+}
+.item {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item label {
+  margin-right: 15px;
+}
+.item select:first-of-type {
+  margin-right: 15px;
+}
+.add-book {
+  border: 1px solid black;
+}
+.add-person {
+  display: flex;
+}
+.add-persons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-books {
+  margin: 0 auto;
+}
